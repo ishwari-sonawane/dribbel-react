@@ -1,0 +1,40 @@
+.button{
+    height: 10vh;
+    width: 100%;
+    /* background-color: rgb(249, 250, 250); */
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.button1{
+    margin-left: 5vw;
+}
+.button1 button{
+    padding: .5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border: 1px solid rgb(169, 167, 167);
+    border-radius: 10px;
+
+}
+.button2 button{
+    padding: .5vw;
+    margin-left: 1vw;
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.button3{
+    margin-right: 5vw;
+}
+
+.button3 button{
+    padding: .5vw;
+    border: 1px solid rgb(175, 173, 173);
+    border-radius: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: aliceblue;
+}

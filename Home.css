@@ -1,0 +1,49 @@
+.home{
+    height: 50vh;
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.home h1{
+    padding-top: 1vw;
+    font-size: 4vw;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+.home p{
+    padding-top: 2vw;
+    font-size: 1.5vw;
+}
+.home input{
+    width: 45%;
+    height: 6vh;
+    border: none;
+    margin-top: 1.5vw;
+    border-radius: 20px;
+    padding-left: 1vw;
+    position: relative;
+    background-color: rgb(228, 230, 231);
+}
+.icon{
+    background-color: pink;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.buttons{
+    padding-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons button{
+    margin-left: 2vw;
+    padding: .4vw;
+    border-radius: 50px;
+    border: none;
+}
+
